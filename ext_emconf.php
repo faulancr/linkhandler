@@ -4,7 +4,7 @@ $EM_CONF[$_EXTKEY] = array(
     'title' => 'Generic record link handler',
     'description' => 'Create links to any record (e.g. news)',
     'category' => 'plugin',
-    'version' => '3.1.3',
+    'version' => '3.1.4',
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array(
     'author_company' => 'Cobweb Development Sarl',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '7.6.1-7.9.99',
+            'typo3' => '7.6.1-8.4.99',
         ),
         'conflicts' => array(
             'ch_rterecords' => '',
